@@ -20,12 +20,16 @@ Ticket Recommendation Website Based on JAVA (Course Project For Cloud Computing 
 
 ### Install mysql:
 + Step 1, In your instance's terminal, execute the following command:
-++ *sudo apt-get install mysql-server* (if you are asked for new mysql password, use "root")
+++ **sudo apt-get install mysql-server** (if you are asked for new mysql password, use "root")
+
 + Step 2, after installation, execute the following command:
-++ *mysql -u root -p*, then input the "root" as password.
+++ **mysql -u root -p**, then input the "root" as password.
+
 + Step 3, In the mysql shell, paste the following SQL statements to create the tables:
 `DROP DATABASE IF EXISTS project;`
+
 `CREATE DATABASE project;`
+
 `CREATE TABLE items (item_id VARCHAR(255) NOT NULL, name VARCHAR(255), rating FLOAT, address VARCHAR(255), image_url VARCHAR(255), url VARCHAR(255), distance FLOAT, PRIMARY KEY ( item_id));`
 `CREATE TABLE categories (item_id VARCHAR(255) NOT NULL, category VARCHAR(255) NOT NULL, PRIMARY KEY ( item_id, category), FOREIGN KEY (item_id) REFERENCES items(item_id));`
 `CREATE TABLE users (user_id VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL, first_name VARCHAR(255), last_name VARCHAR(255), PRIMARY KEY ( user_id ));`
