@@ -38,30 +38,30 @@ Ticket Recommendation Website Based on JAVA (Course Project For Cloud Computing 
 
 ### Install Tomcat 9        
 + Install java:      
-`$ sudo apt update`       
+++`$ sudo apt update`       
 +Install the OpenJDK package by running:         
-`sudo apt install default-jdk`          
+++`sudo apt install default-jdk`          
 +Create Tomcat User:         
-`$ sudo useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat`          
+++`$ sudo useradd -r -m -U -d /opt/tomcat -s /bin/false tomcat`          
 +Install Tomcat:          
-`$ wget http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.tar.gz -P /tmp`         
+++`$ wget http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.27/bin/apache-tomcat-9.0.27.tar.gz -P /tmp`         
   
-`$ sudo tar xf /tmp/apache-tomcat-9*.tar.gz -C /opt/tomcat`          
-`$ sudo ln -s /opt/tomcat/apache-tomcat-9.0.27 /opt/tomcat/latest`           
-`$ sudo chown -RH tomcat: /opt/tomcat/latest`           
-`$ sudo sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'`          
+++`$ sudo tar xf /tmp/apache-tomcat-9*.tar.gz -C /opt/tomcat`          
+++`$ sudo ln -s /opt/tomcat/apache-tomcat-9.0.27 /opt/tomcat/latest`           
+++`$ sudo chown -RH tomcat: /opt/tomcat/latest`           
+++`$ sudo sh -c 'chmod +x /opt/tomcat/latest/bin/*.sh'`          
 + Create a systemd Unit File:
-`$ sudo nano /etc/systemd/system/tomcat.service`          
-`$ sudo systemctl daemon-reload`          
-`$ sudo systemctl start tomcat`           
-`$ sudo systemctl enable tomcat`          
+++`$ sudo nano /etc/systemd/system/tomcat.service`          
+++`$ sudo systemctl daemon-reload`          
+++`$ sudo systemctl start tomcat`           
+++`$ sudo systemctl enable tomcat`          
 
 ### Run war file in the instance:          
 + Run following          
-`sudo cp ~/webtest_war.war /opt/tomcat/latest/webapps/`         
+++`sudo cp ~/webtest_war.war /opt/tomcat/latest/webapps/`         
 
 ### Run in your browser:        
-`YOUR_INSTANCE_IP:8080/webtest_war/`          
+++`YOUR_INSTANCE_IP:8080/webtest_war/`          
 
 
 
