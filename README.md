@@ -3,8 +3,8 @@ Ticket Recommendation Website Based on JAVA (Course Project For Cloud Computing 
 
 
 # Technique Stack:
-+ Database: MySQL
-+ WebServer: Tomcat 9.0.27
++ Database: MySQL (Remote deployed)
++ WebServer: Tomcat 9.0.27 (Remote deployed)
 
 # Features
 + User: Login/Logout/Register
@@ -16,6 +16,9 @@ Ticket Recommendation Website Based on JAVA (Course Project For Cloud Computing 
 + Steven Qin
 
 # Demo
+
+ [Get's hands dirty bu yourself:)](http://35.202.190.80/webtest/)
+
 ![login](https://github.com/Steven13737/TicketForU/blob/master/imgs/1.png)
 ![register](https://github.com/Steven13737/TicketForU/blob/master/imgs/2.png)
 ![event list](https://github.com/Steven13737/TicketForU/blob/master/imgs/3.png)
