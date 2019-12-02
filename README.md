@@ -15,6 +15,13 @@ Ticket Recommendation Website Based on JAVA (Course Project For Cloud Computing 
 + Patrick Li 
 + Steven Qin
 
+# Demo
+![login](https://github.com/Steven13737/TicketForU/blob/master/imgs/1.png)
+![register](https://github.com/Steven13737/TicketForU/blob/master/imgs/2.png)
+![event list](https://github.com/Steven13737/TicketForU/blob/master/imgs/3.png)
+![favourite event list](https://github.com/Steven13737/TicketForU/blob/master/imgs/4.png)
+![recommendation event list](https://github.com/Steven13737/TicketForU/blob/master/imgs/5.png)
+
 # Deploy:
 * (if you want to deploy our model, your should install some essential software packages as following)
 
