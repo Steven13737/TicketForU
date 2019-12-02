@@ -17,7 +17,7 @@ Ticket Recommendation Website Based on JAVA (Course Project For Cloud Computing 
 
 # Demo
 
- [Get's hands dirty bu yourself:)](http://35.202.190.8:80/webtest/)
+ [Get hands dirty bu yourself:)](http://35.202.190.8:80/webtest/)
 
 ![login](https://github.com/Steven13737/TicketForU/blob/master/imgs/1.png)
 ![register](https://github.com/Steven13737/TicketForU/blob/master/imgs/2.png)
